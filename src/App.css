@@ -1,0 +1,120 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+
+/* Dark Theme */
+.dark-theme {
+  background: #1a1a1a;
+  color: #ffffff;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Gradient Background for Cards */
+.bg-gradient-primary {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+}
+
+.bg-gradient-success {
+  background: linear-gradient(135deg, #00b09b, #96c93d);
+}
+
+/* Custom Card Styling */
+.custom-card {
+  background: #2d2d2d;
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Custom File Input */
+.custom-file-input {
+  background: #3d3d3d;
+  color: #ffffff;
+  border: none;
+}
+
+.custom-file-input:focus {
+  background: #4d4d4d;
+  color: #ffffff;
+}
+
+/* Custom Select Dropdown */
+.custom-select {
+  background: #3d3d3d;
+  color: #ffffff;
+  border: none;
+}
+
+.custom-select:focus {
+  background: #4d4d4d;
+  color: #ffffff;
+}
+
+/* Gradient Button */
+.btn-gradient-primary {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  border: none;
+  color: #ffffff;
+  transition: transform 0.3s ease;
+}
+
+.btn-gradient-primary:hover {
+  transform: scale(1.032);
+}
+
+/* Processed Image Styling */
+.processed-image {
+  border: 2px solid #6a11cb;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.processed-image:hover {
+  transform: scale(1.034);
+}
+
+.container-fluid{
+  background: linear-gradient(135deg, #6a11cb, #2575fc)
+}
